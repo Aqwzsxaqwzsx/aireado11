@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.aireado.reader"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.aireado.reader"

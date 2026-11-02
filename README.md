@@ -29,4 +29,4 @@ Open this repository in Android Studio, or run:
 ./gradlew assembleDebug
 ```
 
-The debug APK is written to `app/build/outputs/apk/debug/app-debug.apk`. `minSdk` is 28 (Android 9); compile SDK is 37.
+The debug APK is written to `app/build/outputs/apk/debug/app-debug.apk`. `minSdk` is 28 (Android 9); compile SDK is 36.
