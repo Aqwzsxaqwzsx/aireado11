@@ -122,7 +122,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
                         reading = false;
                         updatePlayButton();
                         updateReaderStatus();
-                        Toast.makeText(this, "You reached the end of this book.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "You reached the end of this book.", Toast.LENGTH_SHORT).show();
                     }
                 });
             }
@@ -133,7 +133,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
                         reading = false;
                         chunkStartedAt = 0L;
                         updatePlayButton();
-                        Toast.makeText(this, "This offline voice could not read the passage.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "This offline voice could not read the passage.", Toast.LENGTH_LONG).show();
                     }
                 });
             }
