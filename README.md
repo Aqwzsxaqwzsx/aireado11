@@ -12,6 +12,7 @@ An offline-first Android reader for PDF books and Word `.docx` files. The first 
 - Show the current part, animated text highlight, estimated total and remaining time, and time listened.
 - Dark/light theme, font size and serif/sans-serif reader choices, speed control, and next/previous speech segment controls.
 - GitHub Actions builds a debug APK artifact on pushes to `main` and pull requests.
+- `samples/voice-test-dialogue.docx` is a short bilingual fixture for checking narrator speech and clearly attributed male and female voices.
 
 ## Voice setup and limits
 
